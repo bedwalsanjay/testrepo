@@ -7,4 +7,3 @@ steps:
   image: alpine 
   commands:
   - echo "Helloo from Sanjay bedwal " 
-  
