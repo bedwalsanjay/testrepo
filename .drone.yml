@@ -1,14 +1,12 @@
+---
 kind: pipeline
 type: docker
 name: default
-
 steps:
-- name: testing
-  image: alpine 
-  commands:
-  - echo "Helloo from Sanjay bedwal " 
-
+  - name: testing
+    image: alpine
+    commands:
+      - echo "Helloo from Sanjay bedwal "
 trigger:
   branch:
-  - master
-
+    - master
